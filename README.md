@@ -27,7 +27,7 @@ The firmware treats HIGH as a pressed switch. Original wiring photos and diagram
 
 ## Serial Communication
 
-The controller sends a line at **115200 bps** when a switch state or a scaled potentiometer value changes.
+The controller sends a line at **115200 bps** on startup and whenever a switch state or a scaled potentiometer value changes.
 
 ```text
 buttons|left|right
